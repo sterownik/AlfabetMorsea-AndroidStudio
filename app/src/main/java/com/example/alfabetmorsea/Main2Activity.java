@@ -73,10 +73,16 @@ public class Main2Activity extends AppCompatActivity {
                     int i=0;
 
                     for (int j = 0; j < edit.length(); j++) {
+
                         znak = edit.charAt(j);
                         MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.cisza);
-                        AudioManager manager = (AudioManager)getApplicationContext().getSystemService(Context.AUDIO_SERVICE);
+
                         mp.getCurrentPosition();
+
+
+
+
+
                         switch (znak) {
                                case 'a':
                                    mp = MediaPlayer.create(getApplicationContext(), R.raw.aa);
@@ -214,6 +220,9 @@ public class Main2Activity extends AppCompatActivity {
                             i++;
                             if(i>100) i=0;
                         }
+
+
+
 
                         l=l+"   "+z;
                         textView.setText(l);
