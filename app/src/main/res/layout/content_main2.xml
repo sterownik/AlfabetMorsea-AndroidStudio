@@ -18,6 +18,7 @@
         android:layout_marginEnd="99dp"
         android:layout_marginRight="99dp"
         android:layout_marginBottom="517dp"
+        android:gravity="center"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
